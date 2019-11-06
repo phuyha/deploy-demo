@@ -135,7 +135,9 @@
         },
         "deploy": {
           "builder": "angular-cli-ghpages:deploy",
-          "options": {}
+          "options": {
+            "baseHref": "https://drchltfpt.github.io/deploy-demo/"
+          }
         }
       }
     }
